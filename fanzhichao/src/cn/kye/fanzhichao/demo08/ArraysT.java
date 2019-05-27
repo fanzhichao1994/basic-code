@@ -17,6 +17,8 @@ public class ArraysT {
         //倒叙遍历
         for (int i = charArray.length - 1; i >= 0; i--) {
             System.out.println(charArray[i]);
+            for (int j = charArray.length - 1; j >= 0; i--) {
+                System.out.println(charArray[j]);
         }
     }
-}
+}}
